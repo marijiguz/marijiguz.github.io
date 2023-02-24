@@ -1,0 +1,21 @@
+body{
+    background-color: aliceblue;
+        }
+        .content{
+    width: 940px;
+    padding: 10px;
+    margin: auto;
+        }
+     
+        .parrafo{
+    text-align: justify;
+    border: solid 1px;
+    border-color: deepskyblue;
+    background-color: white;
+    padding: 10px;  
+        }
+     
+        body div p a{
+    text-decoration: none;
+    color: blueviolet;
+        }
