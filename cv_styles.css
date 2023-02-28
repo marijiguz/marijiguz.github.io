@@ -98,6 +98,10 @@ header nav ul li a:hover {
     background:#fa86ca;
     border-radius: 10px;
 }
+button {
+  background-color: #f3229c;
+     
+}
  
  @media screen and (max-width: 800px) and (min-width:100px) {
    header nav {
