@@ -1,0 +1,145 @@
+ body {
+  align-self:start;
+  margin-top: 0px;
+  background:#69e4da;
+  padding-left: 1%;
+ 
+ }
+ 
+ img{
+    padding-right: 30px;
+  }
+  
+ h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  font-size:larger;
+  color:#d64097;
+  text-shadow: #d64097;
+ }
+  
+ h2 {
+  font-family: 'Pacifico Regular', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  background-color: #d64097;
+  color:#ffffff;
+  padding: 2px;
+  padding-left: 15px;
+  border-radius: 10px;
+ }
+
+ h3 {
+  font-family: 'DynaPuff-VariableFont_wdth,wght', 'Courier New', Courier, monospace;
+  font-weight:800;
+  font-size:larger;
+  font-variant: normal;
+ }
+    
+ .parrafo {
+  font-weight:400;
+  font-size:large;
+  font-family:'Courier New', Courier, monospace;
+  text-align:left;
+  border: solid 1px;
+  border-color:#d64097;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin: 2px;
+  color:rgba(1, 73, 73, 0.973);
+ }
+   
+ header {
+   padding-top: 0px;
+   margin-top: 0px;
+   align-self: start;
+   background-color: #69e4da;
+   
+   width:100%;
+ }
+
+ header nav {
+   width: 97%;
+   max-width:1000px;
+   margin-top: 0px;
+   margin: 0;
+   background:#d64097;
+   position: fixed;
+   text-shadow: #42093b;
+ }
+
+ .menu {
+    display:none;
+ }
+
+ header nav ul {
+    overflow:hidden;
+    list-style:none;
+}
+
+header nav ul li {
+    float:left;
+    font-size: large;
+    font-weight: bolder;
+}
+
+header nav ul li a {
+    color:#fff;
+    padding:10px;
+    display:block;
+    text-decoration:none;
+}
+
+header nav ul li span {
+    margin-right:10px;
+}
+
+header nav ul li a:hover {
+    background:#fa86ca;
+    border-radius: 10px;
+}
+ 
+ @media screen and (max-width: 800px) and (min-width:100px) {
+   header nav {
+    width: 50px;
+    height:100%;
+    left:-100%;
+    margin:0;
+    position: fixed;
+   }
+    
+   header nav ul li {
+       display:block;
+       float:none;
+       border-bottom:1px solid rgba(255,255,255, .3);
+   }
+   header nav ul li a {
+    color:#fff;
+    padding: 5px;
+    display:block;
+    text-decoration:none;
+   }
+   .menu {
+        display: block;
+        
+   }
+
+   .menu .bt-menu {
+        display:block;
+        padding: 10px;
+        background:#f391e6;
+        color:#fff;
+        text-decoration:none;
+        font-weight: bold;
+        font-size:28px;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+
+   .menu span {
+        float:left;
+        font: size 40px;
+   }
+   
+ }
