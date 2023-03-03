@@ -110,7 +110,7 @@ header nav ul li a:hover {
   height: 30px;
 }
 
-.parrafo .a:hover{
+a:hover .bt_vermas {
   background-color: #f3209b;
   color: #ffffff;
   border-bottom-style: double;
