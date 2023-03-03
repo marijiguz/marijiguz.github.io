@@ -34,6 +34,8 @@
   font-weight:800;
   font-size:larger;
   font-variant: normal;
+  color:#d64097;
+  text-shadow: #d64097;
  }
     
  .parrafo {
@@ -98,23 +100,39 @@ header nav ul li a:hover {
     background:#fa86ca;
     border-radius: 10px;
 }
-button {
-  background-color: #f3229c;
-     
+
+.bt_vermas {
+  background-color: #ffffff;
+  color: #f3209b;
+ 
+  border-radius: 10px;
+  border-color: #d64097;
+  height: 30px;
+}
+
+.parrafo .a:hover{
+  background-color: #f3209b;
+  color: #ffffff;
+  border-bottom-style: double;
+  border-left-style: double;
+  border-radius: 10px;
+  border-color: #83004c;
+  height: 30px;
 }
  
- @media screen and (max-width: 800px) and (min-width:100px) {
+ @media screen and (max-width: 800px){
    header nav {
-    width: 50px;
-    height:100%;
+    width: 75%;
+    height:250px;
     left:-100%;
-    margin:0;
-    position: fixed;
+    top: 50px;
+    position:absolute;
+    border-radius: 10px;
    }
     
    header nav ul li {
        display:block;
-       float:none;
+       float:left;
        border-bottom:1px solid rgba(255,255,255, .3);
    }
    header nav ul li a {
@@ -122,10 +140,12 @@ button {
     padding: 5px;
     display:block;
     text-decoration:none;
+    text-align: justify;
+    float: left;
    }
    .menu {
         display: block;
-        
+        position:fixed;
    }
 
    .menu .bt-menu {
@@ -139,6 +159,8 @@ button {
         -webkit-box-sizing:border-box;
         -moz-box-sizing:border-box;
         box-sizing:border-box;
+        
+        
     }
 
    .menu span {
