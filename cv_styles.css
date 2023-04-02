@@ -108,9 +108,7 @@ header nav ul li a:hover {
   border-radius: 10px;
   border-color: #d64097;
   height: 30px;
-  position: fixed;
-  right: 0px;
-  bottom: 0px;
+  
 }
 
 a:hover .bt_vermas {
@@ -124,6 +122,11 @@ a:hover .bt_vermas {
   
   
 
+}
+.arriba{
+position: fixed;
+  right: 0px;
+  bottom: 0px;
 }
  
  @media screen and (max-width: 800px){
