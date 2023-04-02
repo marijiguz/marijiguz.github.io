@@ -109,7 +109,11 @@ header nav ul li a:hover {
   border-color: #d64097;
   height: 30px;
 }
-
+.bt_vermas{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
 a:hover .bt_vermas {
   background-color: #f3209b;
   color: #ffffff;
@@ -118,6 +122,10 @@ a:hover .bt_vermas {
   border-radius: 10px;
   border-color: #83004c;
   height: 30px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+
 }
  
  @media screen and (max-width: 800px){
