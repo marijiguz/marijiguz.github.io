@@ -1,4 +1,4 @@
- body {
+body {
   align-self:start;
   margin-top: 0px;
   background:#69e4da;
@@ -146,7 +146,7 @@ position: fixed;
    }
    header nav ul li a {
     color:#fff;
-    padding: 5px;
+    padding: 10px;
     display:block;
     text-decoration:none;
     text-align: justify;
